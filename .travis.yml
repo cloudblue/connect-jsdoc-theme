@@ -3,3 +3,11 @@ node_js:
 - '8'
 script:
 - npm run gulp sass js
+deploy:
+  provider: npm
+  email: francesco.faraone@ingrammicro.com
+  on:
+    repo: cloudblue/connect-jsdoc-theme
+    branch: master
+  api_key:
+    secure: PoX0FaDXI1HI2gpcVKkQ17XS/5L7ASGaelS7JRVOGC1dGM1iaqbvF+8L+kVt0DazWxeyjkEDyBB/NEFFO6nzVXFzaG9YnXIyjuy9P/sHHPOTRu3QQoAlnm+yriBorXTXnuzuQXJzZMhjU0wSM4+sODHdhzCp/WNUQNVEzBZz49E8+KWgw3yRLOb+CkP31YV0gOJEY8bciw53/6lxhbJ3zlBiQVe096B9tQUK2LwdXue7AA6u77EIp3gezM2D12jeQ8vlYcwNTrf8s5ObLPqcswY7Ja3a7CZW/pfadFcD/rT/NN/xZOwkYlA2IuJSTWVnIUfnqnpObYzhq1zb77hLPP8QmvBkHjtf1cAm1OOo5DC8lcUUFb14rXsIKVb+OlveZVVlS+ftgTiSY4RckDWeDEVQsK102mdxfMMDhfKYhjLI3l6QumofNqhd7lJ29ZkaeBqyWWGR5VGwinepP/eZ+fF3DiTMp51KfLKEH/9ZDhTrvMfRlxRN0D93r19CfOEBsn5tizlojcXRsCyFaN7eg0RAVDl5J/4t7UHlI529+purRE9MT8V7SHXDVrITzjvCT89DjuzoOmr3i1KGgSx+NBQk2cLsJV2LdVg/g4GfiuLXdZbrMTXkqRZBm1mjzhBsO/fXRitG2fmGvX3BD/PKc+3oEsJCsYjmC72tTF7pJAM=
