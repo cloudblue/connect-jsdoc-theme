@@ -33,8 +33,8 @@ in your `jsdoc.json` file, set the template:
 
 ```json
 "opts": {
-  "template": "node_modules/connect-jsdoc-theme"
+  "template": "node_modules/@cloudblueconnect/connect-jsdoc-theme"
 }
 ```
 
-For full documentation visit (https://github.com/SoftwareBrothers/better-docs)[https://github.com/SoftwareBrothers/better-docs].
+For full documentation visit [https://github.com/SoftwareBrothers/better-docs](https://github.com/SoftwareBrothers/better-docs).
