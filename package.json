@@ -1,6 +1,6 @@
 {
   "name": "@cloudblueconnect/connect-jsdoc-theme",
-  "version": "19.2.0",
+  "version": "19.2.1",
   "description": "JSdoc theme for CloudBlue Connect based on better-docs.",
   "main": "publish.js",
   "scripts": {
