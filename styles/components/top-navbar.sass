@@ -1,0 +1,23 @@
+.top-navbar
+  background: $connect-blue
+  padding: rem(15px) 0
+  margin-bottom: rem(70px)
+  .navbar
+    background: $connect-blue
+
+  .navbar-item, .navbar-burger
+    color: #fff
+    a
+      color: #fff
+      &:hover
+        text-decoration: underline
+
+
+  .navbar-brand
+    img
+      margin-right: 20px
+      @include until($desktop)
+        margin-left: 30px
+    h1
+      font-size: 30px
+      font-family: $header-font-family
