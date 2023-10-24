@@ -2,7 +2,7 @@ const DOCS_COMMAND = process.env.DOCS_COMMAND || 'npm run docs'
 const DOCS_OUTPUT = process.env.DOCS_OUTPUT || "../docs"
 
 const gulp = require('gulp')
-const sass = require('gulp-sass')
+const sass = require('gulp-sass')(require('sass'))
 const autoprefixer = require('gulp-autoprefixer')
 const run = require('gulp-run')
 const babel = require('gulp-babel')
@@ -34,7 +34,7 @@ gulp.task('js', () => {
 })
 
 gulp.task('docs', function() {
-  return run(`cd .. && ${DOCS_COMMAND}`).exec()
+  return run(DOCS_COMMAND).exec()
 })
 
 gulp.task('watch', () => {

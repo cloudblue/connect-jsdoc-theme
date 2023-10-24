@@ -1,6 +1,6 @@
 {
   "name": "@cloudblueconnect/connect-jsdoc-theme",
-  "version": "19.2.1",
+  "version": "20.0.0",
   "description": "JSdoc theme for CloudBlue Connect based on better-docs.",
   "main": "publish.js",
   "scripts": {
@@ -12,10 +12,10 @@
   "author": "Ingram Micro Inc",
   "license": "MIT",
   "devDependencies": {
-    "@babel/cli": "^7.5.5",
-    "@babel/core": "^7.4.4",
-    "@babel/preset-env": "^7.5.5",
-    "@babel/preset-react": "^7.0.0",
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.2",
+    "@babel/preset-env": "^7.23.2",
+    "@babel/preset-react": "^7.22.15",
     "@vue/component-compiler-utils": "^3.0.0",
     "browser-sync": "^2.26.3",
     "bulma": "^0.7.5",
@@ -33,10 +33,11 @@
     "gulp-concat": "^2.6.1",
     "gulp-rename": "^1.4.0",
     "gulp-run": "^1.7.1",
-    "gulp-sass": "^4.0.2",
+    "gulp-sass": "^5.1.0",
     "gulp-uglify": "^3.0.2",
     "jsdoc": "^3.6.3",
-    "mocha": "^6.2.0"
+    "mocha": "^6.2.0",
+    "sass": "^1.69.4"
   },
   "peerDependencies": {
     "react": "^0.16.0",
