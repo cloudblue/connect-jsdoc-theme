@@ -9,7 +9,7 @@
     "build": "babel src --out-dir lib",
     "docs": "jsdoc -c jsdoc.json"
   },
-  "author": "Ingram Micro Inc",
+  "author": "CloudBlue",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.5.5",
